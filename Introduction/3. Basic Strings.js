@@ -11,6 +11,7 @@ let c = [
   { Manipulation: "Slice", Result: a.slice(1) },
 ];
 
+console.log(c, "\n")
 console.table(c);
 
 console.log("\n");
