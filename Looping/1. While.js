@@ -23,3 +23,9 @@ while (i < length) {
 }
 
 console.log(arr)
+
+let x = 0;
+while (x < 10){
+    x++;
+};
+console.log(x);
