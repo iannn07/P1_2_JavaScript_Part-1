@@ -32,3 +32,18 @@ function LocalVariable(param) {
 }
 
 console.log(LocalVariable(10));
+
+console.log("\n");
+
+// Recursive Function
+let arr = [];
+function RecursiveFunction(param){
+  if(param == 0){
+    return "COMPLETED"
+  }
+  arr.push(param);
+  return RecursiveFunction(param-1);
+}
+
+console.log(RecursiveFunction(5));
+console.log(arr)

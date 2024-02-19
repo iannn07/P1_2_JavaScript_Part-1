@@ -29,3 +29,14 @@ while (x < 10){
     x++;
 };
 console.log(x);
+
+console.log("\n");
+
+let b = 1;
+let c = 10;
+do{
+    b += c - 5;
+    console.log(b, c);
+} while (b < c);
+
+console.log(b, c);

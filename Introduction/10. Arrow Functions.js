@@ -17,3 +17,14 @@ const concatenation_1 = function (arr1, arr2) {
   return arr1.concat(arr2);
 };
 console.log(concatenation_1([1, 2, 3, 4], [5, 6, 7, 8]));
+
+// Additional
+let arr = [1, 2, 3, 4, 5];
+const two_different_arrays = (arr1) => {
+  arr1.push(6);
+  console.log("Array push\t\t\t: ", arr1);
+  arr1.pop();
+  console.log("Array pop\t\t\t\t: ", arr1);
+};
+
+two_different_arrays(arr)
