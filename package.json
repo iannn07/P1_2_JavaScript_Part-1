@@ -1,0 +1,12 @@
+{
+  "name": "javascirpt-part-1",
+  "version": "1.0.0",
+  "description": "This repository is used to store all of my JS Exercises from the course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Iannn",
+  "license": "ISC",
+  "type": "module"
+}
